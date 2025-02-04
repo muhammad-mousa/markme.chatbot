@@ -16,8 +16,6 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
 
 ## Output 
 ![image](https://github.com/user-attachments/assets/6f832fcf-f101-481d-b54b-9f77c942a297)
