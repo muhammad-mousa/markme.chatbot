@@ -2,8 +2,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { TextAnalyticsClient, AzureKeyCredential } from "@azure/ai-text-analytics";
 
-const AZURE_CHAT_KEY = process.env.NEXT_PUBLIC_AZURE_CHAT_KEY || 'ASoYbR7dz9VfUrF1oe8HMCGbdru2akRBhI8GZGQcH0QkDlMT4mQIJQQJ99BAACYeBjFXJ3w3AAAaACOG1JhE';
-const AZURE_CHAT_ENDPOINT = process.env.NEXT_PUBLIC_AZURE_CHAT_ENDPOINT || 'https://markmeailanguage.cognitiveservices.azure.com';
+const AZURE_CHAT_KEY = process.env.NEXT_PUBLIC_AZURE_CHAT_KEY ;
+const AZURE_CHAT_ENDPOINT = process.env.NEXT_PUBLIC_AZURE_CHAT_ENDPOINT ;
 
 const client = new TextAnalyticsClient(
   AZURE_CHAT_ENDPOINT,
